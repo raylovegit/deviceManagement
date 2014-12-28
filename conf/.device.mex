@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="device" location="0,0" size="0,0">
+    <action name="deviceAction_*" location="0,0" size="0,0">
+      <result name="list">
+        <resourceEdge source="list" routing="0" target="list.jsp" />
+      </result>
+      <result name="delete" />
+      <result name="create" />
+      <result name="update" />
+      <result name="updateok" />
+      <result name="read" />
+      <result name="bentchDelete" />
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/WEB-INF/jsp/news/index.jsp" location="0,0" size="0,0" />
+  <webResource name="list.jsp" path="/WEB-INF/jsp/news/list.jsp" location="0,0" size="0,0" />
+  <webResource name="list.jsp" path="/WEB-INF/jsp/device/list.jsp" location="0,0" size="0,0" />
+</Struts2Diagram>
+
